@@ -1,5 +1,5 @@
 module.exports = {
-  purge: {
+  content: {
     enabled:
       process.env.CONTEXT == "production" ||
       process.env.NODE_ENV == "production",

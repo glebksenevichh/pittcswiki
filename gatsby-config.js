@@ -33,7 +33,6 @@ module.exports = {
         // other options
       },
     },
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-sass`,
       options: {
@@ -136,7 +135,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
-    "gatsby-redirect-from",
     "gatsby-plugin-meta-redirect",
     "gatsby-plugin-catch-links",
   ].concat(

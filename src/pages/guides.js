@@ -86,7 +86,7 @@ export const pageQuery = graphql`
         fields: { slug: { glob: "/*/" }, isIndexPage: { eq: true } }
         frontmatter: { guides_blurb: { ne: null } }
       }
-      sort: { order: ASC, fields: frontmatter___title }
+      sort: { frontmatter: {title: ASC}}
     ) {
       nodes {
         frontmatter {

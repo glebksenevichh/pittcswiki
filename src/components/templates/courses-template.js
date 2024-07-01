@@ -99,7 +99,7 @@ export const pageQuery = graphql`
     }
     allGoogleSheetCourseTestimonials(
       filter: { courseId: { eq: $courseId } }
-      sort: { fields: year, order: DESC }
+      sort: { year: DESC }
     ) {
       edges {
         node {

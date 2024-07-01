@@ -9771,6 +9771,7 @@ gatsby-plugin-page-creator@^2.8.0:
     globby "^11.0.1"
     lodash "^4.17.20"
 
+<<<<<<< Updated upstream
 gatsby-plugin-react-helmet@^3.1.8:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-3.2.1.tgz#28a89e884e5447f7aefead2a80749e3745f5f5a9"
@@ -9782,6 +9783,12 @@ gatsby-plugin-sass@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sass/-/gatsby-plugin-sass-2.3.0.tgz#9b03fbb340ed14acf9859bffbc1bb89e40c7ae1f"
   integrity sha512-6kQllLWNli+mbfyjRVt8S5kjqVbapNcvErHKdNde7jWTZ997lL8t9yH0KOxH6r0ti1ibN8HZbqnC92JPkWV4lQ==
+=======
+gatsby-plugin-sass@^6.13.1:
+  version "6.13.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sass/-/gatsby-plugin-sass-6.13.1.tgz#13fa6a4b95aee7c1bf3e69c017ae9c8e1a0abf49"
+  integrity sha512-pHS1hJhOPMEaC1eLsuXgqskLBUxbpYR1lUb7yxL4jva0PX2HOQTYTczFYtueOWz/7RD0GjrDCHIWOzUIGauRsQ==
+>>>>>>> Stashed changes
   dependencies:
     "@babel/runtime" "^7.9.2"
     sass-loader "^7.3.1"
@@ -9838,10 +9845,17 @@ gatsby-react-router-scroll@^3.5.0:
   dependencies:
     "@babel/runtime" "^7.12.5"
 
+<<<<<<< Updated upstream
 gatsby-recipes@^0.1.42:
   version "0.1.42"
   resolved "https://registry.yarnpkg.com/gatsby-recipes/-/gatsby-recipes-0.1.42.tgz#78d53e870aa2322a6806283540fd3b32bb4db455"
   integrity sha512-1qkU/uIqCJFoPCll75gSUVoBYIcze2YhEGR/wtAZzEPbpCA+5lkf5mmkYxf7aVhKEWBQCwAng08Vp8cbafhCRw==
+=======
+gatsby-remark-autolink-headers@^6.13.1:
+  version "6.13.1"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-autolink-headers/-/gatsby-remark-autolink-headers-6.13.1.tgz#013ba7ef0ff7e754c9e458e307a2eee6fdb552ea"
+  integrity sha512-nKmmA2n4xJnMV6AR+QPU7eQzjxoseLfGcNlT7k43goPRhDkRgL4DsXOMs8d06ZrAmJf8Wps5LVg+KtUUGBkjxw==
+>>>>>>> Stashed changes
   dependencies:
     "@babel/core" "^7.10.2"
     "@babel/generator" "^7.10.2"
