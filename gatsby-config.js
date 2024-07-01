@@ -110,13 +110,6 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-mdx`,
-      options: {
-        defaultLayouts: {
-          default: require.resolve(
-            `${__dirname}/src/components/templates/mdx-guide-template.js`
-          ),
-        },
-      },
     },
     {
       resolve: `gatsby-transformer-remark`,
